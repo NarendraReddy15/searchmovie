@@ -14,7 +14,7 @@ let poster=document.getElementById('poster')
 function searchkey(){
   let searched=document.getElementById('in');
 let key=api+searched.value;
-// searched.value="";
+searched.value="";
 fetch(key).then((data)=>{
 return data.json();
 }).then((data)=>{
