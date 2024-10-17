@@ -64,9 +64,12 @@
       }
       
       .search{
-        width:450px;
+        width:400px;
         margin:20px auto;
         display: flex;
+        /* flex-direction: column;
+        gap:5px; */
+        
         
       }
       .btn{
@@ -74,6 +77,7 @@
         color:white;
         border:none;
         cursor:pointer;
+        padding: 15px; border: none;
         background-color: rgba(249, 2, 2, 0.885);
       }
       body{
@@ -86,7 +90,7 @@
       width:250px;
       }
       .container{
-        width:450px;
+        width:400px;
         display:flex;
         margin:20px auto;
         flex-direction: column;
